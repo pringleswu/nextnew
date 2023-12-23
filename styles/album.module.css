@@ -1,0 +1,103 @@
+.layout {
+    background-color: #111111;
+    box-sizing: border-box;
+    color: white;
+    width:100vw;
+    height:auto;
+  }
+  
+.nav {
+    height: 90px;
+    /* border:1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+/* button {
+    background-color: #111111;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    height: 40px;
+    width: auto;
+  }
+   */
+  .rightNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightNav button {
+    background-color: #111111;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    height: 40px;
+    width: auto;
+    margin: 10px;
+  }
+  
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+  }
+
+  .email{
+    display: inline-flex;
+    padding: 2px;
+  }
+  
+  /* Row */
+  .row {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border:solid 1px white; */
+    height: 220px;
+  }
+  
+  /* album */
+  .album {
+    display: inline-flex;
+    align-items: center;
+    padding-left:12px;
+  }
+  
+  /* Col */
+  .col {
+    display: inline-block;
+    width: 24%;
+    height: 200px;
+    background-color: white;
+  }
+  
+  .pic1 {
+    background-image: url("../images/pexels-photo-290470.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .col.pic2 {
+    background-image: url("../images/pexels-photo-1819662.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .col.pic3 {
+    background-image: url("../images/pexels-photo-3262249.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .col.pic4 {
+    background-image: url("../images/pexels-photo-3607542.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

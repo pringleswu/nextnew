@@ -1,0 +1,27 @@
+{
+  "homepage": "https://pringleswu.github.io/nextnew",
+  "name": "next-ectest",
+  "version": "0.1.0",
+  "private": "false",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "antd": "^5.12.5",
+    "gh-pages": "^6.1.1",
+    "mui": "^0.0.1",
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-modal-image": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.0.4"
+  }
+}
